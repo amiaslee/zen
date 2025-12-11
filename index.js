@@ -14,9 +14,12 @@ import Tooltip from './commons/components/Tooltip.js';
 import { AppProvider } from './commons/contexts/AppContext.jsx';
 import ThemePreferences from './commons/preferences/ThemePreferences.js';
 
+import initMermaid from './commons/utils/initMermaid.js';
+
 document.addEventListener('DOMContentLoaded', () => {
   ThemePreferences.applyTheme();
   Tooltip.init();
+  initMermaid();
   render(
     <App />,
     document.body

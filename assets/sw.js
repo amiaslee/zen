@@ -1,16 +1,16 @@
 const CACHE_NAME = 'zen-v1';
 const STATIC_ASSETS = [
-  '/',
-  '/assets/index.html',
-  '/assets/bundle.js',
-  '/assets/index.css',
-  '/assets/reset.css',
-  '/assets/notes-editor.css',
-  '/assets/github.min.css',
-  '/assets/preact.esm.js',
-  '/assets/markdown-it.min.js',
-  '/assets/highlight.min.js',
-  '/assets/markdown-it-task-lists.js'
+    '/',
+    '/assets/index.html',
+    '/assets/bundle.js',
+    '/assets/index.css',
+    '/assets/reset.css',
+    '/assets/github.min.css',
+    '/assets/preact.esm.js',
+    '/assets/markdown-it.min.js',
+    '/assets/highlight.min.js',
+    '/assets/mermaid.min.js',
+    '/assets/markdown-it-task-lists.js'
 ];
 
 self.addEventListener('install', event => {

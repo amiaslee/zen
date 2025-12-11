@@ -304,3 +304,18 @@ svg.lucide {
         transition: transform var(--transition-fast) ease-out;
     }
 }
+
+.mermaid-chart {
+    display: flex;
+    margin: 1.5rem 0;
+    padding: 0;
+    white-space: pre;
+    background: transparent;
+    border: none;
+    line-height: normal;
+}
+
+.mermaid-chart .nodeLabel>p {
+    margin: 0;
+    padding: 0;
+}
